@@ -41,8 +41,8 @@ export const EditContact = () => {
 	return (
         <div className="container">
             <div className="card mb3 add-card">
-                <h1>Edit your contact</h1>
                 <form onSubmit={e => editContact(e)}>
+                <h1 className="text-center">Edit your contact</h1>
                     <div className="mb-3">
                         <label htmlFor="fullName" className="form-label">Full Name</label>
                         <input type="text" className="form-control" id="fullName" value={formData.full_name} onChange={(data) => setFormData({...formData, full_name: data.target.value})}/>
@@ -60,7 +60,7 @@ export const EditContact = () => {
                         <input type="text" className="form-control" id="address" value={formData.address} onChange={(data) => setFormData({...formData, address: data.target.value})}/>
                     </div>
                     <button type="submit" className="btn btn-primary btn-submit">Save</button>
-                    <Link to="/">Get back to contacts</Link>
+                    <Link to="/">Get back</Link>
                 </form>
                 <ToastContainer
                     position="bottom-right"

@@ -66,7 +66,7 @@ export const Register = () => {
                         <input type="text" className="form-control" id="address" name="address" onChange={handleRegister}/>
                     </div>
                     <button type="submit" className="btn btn-primary btn-submit">Submit</button>
-                    <Link to="/">Get back to contacts</Link>
+                    <Link to="/">Get back</Link>
                 </form>
                 <ToastContainer
                     position="bottom-right"
