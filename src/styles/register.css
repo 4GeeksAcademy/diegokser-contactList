@@ -1,10 +1,19 @@
+body{
+    background-color: #3D6EFF;
+}
 .form-label{
     font-weight: bold;
 }
 .btn-submit{
     margin-right: 3rem;
+    background-color:#E0AB1F;
+    border: #E0AB1F;
 }
-
+.add-card{
+    margin:5rem 2rem 5rem 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
